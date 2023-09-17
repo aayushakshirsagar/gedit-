@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s; /* This will smoothly change the background color when a button is clicked */
+    color:black;
+   
+}
+.navbar{
+    background-color: #333;
+    display:flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+.navbar a{
+    color:black;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid black; 
+    display: inline-block; 
+    border-radius: 5px;
+    
+
+}
+.navbar a:hover{
+    color:red;
+}
+
+
+.button {
+    display:inline-flexbox;
+    
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.button:hover {
+    transform: scale(2.0); /* This will slightly enlarge the button when hovered */
+}
+
+.button:active {
+    transform: scale(0.95); /* This will slightly reduce the button when clicked */
+}
+
+#grey {
+    background-color: grey;
+    
+}
+
+#white {
+    background-color: white;
+   
+    border: 1px solid #e0e0e0; /* Adding a border for visibility */
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+    
+}

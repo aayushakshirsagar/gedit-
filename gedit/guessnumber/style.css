@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #333;
+    display:flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+.navbar a{
+    color:black;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid black; 
+    display: inline-block; 
+    border-radius: 5px;
+    
+
+}
+.navbar a:hover{
+    color:red;
+}
+#wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.guessField {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+}
+
+.guessSubmit {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guessSubmit:hover {
+    background-color: #0056b3;
+}
+
+.resultParas p {
+    margin: 5px 0;
+}
+
+.lowOrHi {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff0000;  /* Change this color if you want a different color for the 'higher or lower' hint. */
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #212121;
+    color: #fff
+}
+.navbar{
+    background-color: #333;
+    display:flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
+.navbar a{
+    color:black;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 2px solid black; 
+    display: inline-block; 
+    border-radius: 5px;
+    
+
+}
+.navbar a:hover{
+    color:red;
+}
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+
+
+}
